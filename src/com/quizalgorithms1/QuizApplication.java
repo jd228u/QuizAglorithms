@@ -66,7 +66,7 @@ public class QuizApplication {
         quiz.addQuestion(new Question(
                 "When 'pattern searching' with a finite state machine, the search can only ever be in one state at any given moment.",
                 List.of("True", "False"),
-                0 // the first option ("True") is correct.
+                1 // the second option ("False") is correct.
         ));
 
         // Question 10
